@@ -90,7 +90,7 @@ Wiki/
 ---
 
 ### 3. ID Data Extraction (OkayID)
-**File**: `identity-verification/id-data-extraction.html`
+**File**: `identity-verification/id-data-extraction.md`
 **Brand**: OkayID is EMAS eKYC's data extraction component
 
 **What it does**: Automatically captures and extracts data from ID documents using OCR, NFC, and chip reading.
@@ -106,7 +106,7 @@ Wiki/
 ---
 
 ### 4. ID Verification (OkayDoc)
-**File**: `identity-verification/id-verification.html`
+**File**: `identity-verification/id-verification.md`
 **Brand**: OkayDoc is EMAS eKYC's document authentication component
 
 **What it does**: Verifies ID documents are genuine using ~20 security checks.
@@ -122,7 +122,7 @@ Wiki/
 ---
 
 ### 5. Liveness Detection (OkayLive)
-**File**: `identity-verification/liveness-detection.html`
+**File**: `identity-verification/liveness-detection.md`
 **Brand**: OkayLive is EMAS eKYC's passive liveness detection component
 
 **What it does**: Confirms real person is present without requiring head movements.
@@ -140,7 +140,7 @@ Wiki/
 ## USER SCREENING (4 pages)
 
 ### 6. Digital Footprint Analysis
-**File**: `user-screening/digital-footprint-analysis.html`
+**File**: `user-screening/digital-footprint-analysis.md`
 **Brand**: Partner service
 
 **What it does**: Analyzes online presence to detect synthetic identities and verify legitimacy.
@@ -156,7 +156,7 @@ Wiki/
 ---
 
 ### 7. Credit Score and Bankruptcy Checks
-**File**: `user-screening/credit-bankruptcy-checks.html`
+**File**: `user-screening/credit-bankruptcy-checks.md`
 **Brand**: Partner service
 
 **What it does**: Assesses creditworthiness through credit bureau and bankruptcy records.
@@ -172,7 +172,7 @@ Wiki/
 ---
 
 ### 8. AML/CFT Screening
-**File**: `user-screening/aml-cft-screening.html`
+**File**: `user-screening/aml-cft-screening.md`
 **Brand**: Partner service
 
 **What it does**: Checks customers against sanctions lists, PEP databases, and watchlists.
@@ -188,7 +188,7 @@ Wiki/
 ---
 
 ### 9. Face Recognition Search (OkayFace Search)
-**File**: `user-screening/face-recognition-search.html`
+**File**: `user-screening/face-recognition-search.md`
 **Brand**: OkayFace Search is EMAS eKYC's facial recognition search tool
 
 **What it does**: Searches customer database by facial biometrics to find duplicates and fraud networks.
@@ -206,7 +206,7 @@ Wiki/
 ## ADDITIONAL VERIFICATION (4 pages)
 
 ### 10. Income and Address Proofing
-**File**: `additional-verification/income-address-proofing.html`
+**File**: `additional-verification/income-address-proofing.md`
 **Brand**: Partner service
 
 **What it does**: Verifies income and address through document analysis.
@@ -222,7 +222,7 @@ Wiki/
 ---
 
 ### 11. Device Binding and Intelligence
-**File**: `additional-verification/device-binding-intelligence.html`
+**File**: `additional-verification/device-binding-intelligence.md`
 **Brand**: Partner service (consolidated from 3 pages)
 
 **What it does**: Prevents account takeover through device binding, fingerprinting, and risk screening.
@@ -239,7 +239,7 @@ Wiki/
 ---
 
 ### 12. Digital Signatures
-**File**: `additional-verification/digital-signatures.html`
+**File**: `additional-verification/digital-signatures.md`
 **Brand**: Partner service
 
 **What it does**: Enables legally binding electronic signatures for remote document signing.
@@ -255,7 +255,7 @@ Wiki/
 ---
 
 ### 13. Deepfake and Injection Attack Detection (OkayLive+)
-**File**: `additional-verification/deepfake-injection-detection.html`
+**File**: `additional-verification/deepfake-injection-detection.md`
 **Brand**: OkayLive+ is EMAS eKYC's advanced liveness detection component
 
 **What it does**: Detects AI-generated fraud and sophisticated injection attacks.
