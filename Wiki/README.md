@@ -1,16 +1,16 @@
 # EMAS eKYC Wiki Pages
 
-**Purpose**: Markdown content for EMAS eKYC product website
+**Purpose**: SEO-compliant, accessible HTML content for EMAS eKYC product website
 **Last Updated**: 2025-11-04
 **Total Pages**: 13 feature pages (matching sitemap)
-**Format**: Markdown with FAQ sections
+**Format**: Semantic HTML5 with FAQ Schema (JSON-LD)
 **Writing Style**: Concise, business-focused (William Zinsser principles)
 
 ---
 
 ## Overview
 
-Production-ready Markdown wiki pages for all EMAS eKYC features and components. Each page follows the standardized [Feature Page Template](../SOP/feature-page-template.md) with concise content and comprehensive FAQ sections.
+Production-ready SEO-compliant HTML wiki pages for all EMAS eKYC features and components. Each page uses semantic HTML5 markup with structured data for enhanced search visibility. Pages follow the standardized [Feature Page Template](../SOP/feature-page-template.md) with concise content and comprehensive FAQ sections.
 
 ### Content Philosophy
 - **Concise writing**: Short paragraphs (max 4-5 lines), focused sections (max 5 paragraphs)
@@ -18,6 +18,8 @@ Production-ready Markdown wiki pages for all EMAS eKYC features and components. 
 - **Educational**: Helps stakeholders understand when and why to use each feature
 - **Factually accurate**: Verified against `/context/` documentation for product claims
 - **FAQ-driven**: Common questions answered comprehensively (6-7 Q&As per page)
+- **SEO-optimized**: FAQ schema markup for rich snippets in search results
+- **Accessible**: Semantic HTML5 with proper heading hierarchy
 
 ### Branding Approach
 - **Okay-branded features**: "OkayX is EMAS eKYC's [component]..." (verified from context)
@@ -32,21 +34,21 @@ Production-ready Markdown wiki pages for all EMAS eKYC features and components. 
 Wiki/
 ├── README.md                            # This file
 ├── identity-verification/               # 5 features
-│   ├── facial-matching.md              # OkayFace
-│   ├── remote-video-verification.md    # Partner service
-│   ├── id-data-extraction.md           # OkayID
-│   ├── id-verification.md              # OkayDoc
-│   └── liveness-detection.md           # OkayLive
+│   ├── facial-matching.html            # OkayFace
+│   ├── remote-video-verification.html  # Partner service
+│   ├── id-data-extraction.html         # OkayID
+│   ├── id-verification.html            # OkayDoc
+│   └── liveness-detection.html         # OkayLive
 ├── user-screening/                      # 4 features
-│   ├── digital-footprint-analysis.md   # Partner service
-│   ├── credit-bankruptcy-checks.md     # Partner service
-│   ├── aml-cft-screening.md            # Partner service
-│   └── face-recognition-search.md      # OkayFace Search
+│   ├── digital-footprint-analysis.html # Partner service
+│   ├── credit-bankruptcy-checks.html   # Partner service
+│   ├── aml-cft-screening.html          # Partner service
+│   └── face-recognition-search.html    # OkayFace Search
 ├── additional-verification/             # 4 features
-│   ├── income-address-proofing.md      # Partner service
-│   ├── device-binding-intelligence.md  # Partner service (merged)
-│   ├── digital-signatures.md           # Partner service
-│   └── deepfake-injection-detection.md # OkayLive+
+│   ├── income-address-proofing.html    # Partner service
+│   ├── device-binding-intelligence.html # Partner service (merged)
+│   ├── digital-signatures.html         # Partner service
+│   └── deepfake-injection-detection.html # OkayLive+
 └── _archived/                           # Not in sitemap
     ├── biometric-alert-list.html
     ├── biometric-authentication.html
@@ -58,7 +60,7 @@ Wiki/
 ## IDENTITY VERIFICATION (5 pages)
 
 ### 1. Facial Matching (OkayFace)
-**File**: `identity-verification/facial-matching.md`
+**File**: `identity-verification/facial-matching.html`
 **Brand**: OkayFace is EMAS eKYC's facial matching component
 
 **What it does**: Matches live selfie to ID photo with 99.50% accuracy and 0.000001 false match rate.
@@ -74,7 +76,7 @@ Wiki/
 ---
 
 ### 2. Remote and Video Verification
-**File**: `identity-verification/remote-video-verification.md`
+**File**: `identity-verification/remote-video-verification.html`
 **Brand**: Partner service
 
 **What it does**: Agent-assisted video verification for complex cases requiring human judgment.
@@ -90,7 +92,7 @@ Wiki/
 ---
 
 ### 3. ID Data Extraction (OkayID)
-**File**: `identity-verification/id-data-extraction.md`
+**File**: `identity-verification/id-data-extraction.html`
 **Brand**: OkayID is EMAS eKYC's data extraction component
 
 **What it does**: Automatically captures and extracts data from ID documents using OCR, NFC, and chip reading.
@@ -106,7 +108,7 @@ Wiki/
 ---
 
 ### 4. ID Verification (OkayDoc)
-**File**: `identity-verification/id-verification.md`
+**File**: `identity-verification/id-verification.html`
 **Brand**: OkayDoc is EMAS eKYC's document authentication component
 
 **What it does**: Verifies ID documents are genuine using ~20 security checks.
@@ -122,7 +124,7 @@ Wiki/
 ---
 
 ### 5. Liveness Detection (OkayLive)
-**File**: `identity-verification/liveness-detection.md`
+**File**: `identity-verification/liveness-detection.html`
 **Brand**: OkayLive is EMAS eKYC's passive liveness detection component
 
 **What it does**: Confirms real person is present without requiring head movements.
@@ -140,7 +142,7 @@ Wiki/
 ## USER SCREENING (4 pages)
 
 ### 6. Digital Footprint Analysis
-**File**: `user-screening/digital-footprint-analysis.md`
+**File**: `user-screening/digital-footprint-analysis.html`
 **Brand**: Partner service
 
 **What it does**: Analyzes online presence to detect synthetic identities and verify legitimacy.
@@ -156,7 +158,7 @@ Wiki/
 ---
 
 ### 7. Credit Score and Bankruptcy Checks
-**File**: `user-screening/credit-bankruptcy-checks.md`
+**File**: `user-screening/credit-bankruptcy-checks.html`
 **Brand**: Partner service
 
 **What it does**: Assesses creditworthiness through credit bureau and bankruptcy records.
@@ -172,7 +174,7 @@ Wiki/
 ---
 
 ### 8. AML/CFT Screening
-**File**: `user-screening/aml-cft-screening.md`
+**File**: `user-screening/aml-cft-screening.html`
 **Brand**: Partner service
 
 **What it does**: Checks customers against sanctions lists, PEP databases, and watchlists.
@@ -188,7 +190,7 @@ Wiki/
 ---
 
 ### 9. Face Recognition Search (OkayFace Search)
-**File**: `user-screening/face-recognition-search.md`
+**File**: `user-screening/face-recognition-search.html`
 **Brand**: OkayFace Search is EMAS eKYC's facial recognition search tool
 
 **What it does**: Searches customer database by facial biometrics to find duplicates and fraud networks.
@@ -206,7 +208,7 @@ Wiki/
 ## ADDITIONAL VERIFICATION (4 pages)
 
 ### 10. Income and Address Proofing
-**File**: `additional-verification/income-address-proofing.md`
+**File**: `additional-verification/income-address-proofing.html`
 **Brand**: Partner service
 
 **What it does**: Verifies income and address through document analysis.
@@ -222,7 +224,7 @@ Wiki/
 ---
 
 ### 11. Device Binding and Intelligence
-**File**: `additional-verification/device-binding-intelligence.md`
+**File**: `additional-verification/device-binding-intelligence.html`
 **Brand**: Partner service (consolidated from 3 pages)
 
 **What it does**: Prevents account takeover through device binding, fingerprinting, and risk screening.
@@ -239,7 +241,7 @@ Wiki/
 ---
 
 ### 12. Digital Signatures
-**File**: `additional-verification/digital-signatures.md`
+**File**: `additional-verification/digital-signatures.html`
 **Brand**: Partner service
 
 **What it does**: Enables legally binding electronic signatures for remote document signing.
@@ -255,7 +257,7 @@ Wiki/
 ---
 
 ### 13. Deepfake and Injection Attack Detection (OkayLive+)
-**File**: `additional-verification/deepfake-injection-detection.md`
+**File**: `additional-verification/deepfake-injection-detection.html`
 **Brand**: OkayLive+ is EMAS eKYC's advanced liveness detection component
 
 **What it does**: Detects AI-generated fraud and sophisticated injection attacks.
@@ -276,16 +278,22 @@ Wiki/
 
 **Method 1: Direct Copy-Paste**
 1. Open HTML file in text editor
-2. Copy all content
+2. Copy all content (starting from `<section>`)
 3. Add "Custom HTML" block in WordPress
 4. Paste content
-5. Preview
+5. Preview - semantic markup and FAQ schema will render properly
 
 **Method 2: Code Editor**
 1. Open Gutenberg Code editor
-2. Paste HTML
+2. Paste HTML content
 3. Switch to Visual editor
-4. Done
+4. Content renders with proper structure
+
+### SEO Benefits
+- **FAQ Rich Snippets**: JSON-LD schema markup enables FAQ rich results in Google search
+- **Semantic HTML**: Proper heading hierarchy and semantic tags improve search visibility
+- **Accessibility**: Screen reader friendly with proper ARIA structure
+- **No External Dependencies**: No CSS or JavaScript required
 
 ### Images
 - All images hosted on Unsplash/Pexels CDN
@@ -311,6 +319,7 @@ Wiki/
 - **Industry knowledge**: Clearly distinguished from product claims
 
 ### Structure
+- Semantic HTML5 with proper nesting
 - H1: Feature name (e.g., "Facial Matching")
 - Intro: Branding statement + brief description
 - 5-section template (when applicable):
@@ -319,6 +328,7 @@ Wiki/
   3. How Businesses Use It
   4. Key Benefits
   5. Real-World Examples
+- FAQ section with JSON-LD schema markup
 
 ---
 
@@ -350,11 +360,13 @@ General industry knowledge used for:
 - Messaging strategy shifts
 
 ### How to Update
-1. Edit HTML directly
-2. Maintain 5-section structure
-3. Apply Zinsser style
-4. Verify Okay claims against `/context/`
-5. Test in WordPress Gutenberg
+1. Edit HTML files directly in text editor
+2. Maintain semantic HTML5 structure and proper heading hierarchy
+3. Keep 5-section template structure
+4. Apply Zinsser writing style principles
+5. Verify Okay claims against `/context/` documentation
+6. Update FAQ schema (JSON-LD) when modifying FAQ sections
+7. Test in WordPress Gutenberg before deployment
 
 ---
 
